@@ -3,7 +3,6 @@ const costOfPayment = costs => {
     const interestFee = 0.01;
     costs = costs + fee + (costs * interestFee);
     console.log(`Maria needs to pay ${costs}$`);
-    return costs;
 }
 
 costOfPayment(1000); //Maria needs to pay 1013$
